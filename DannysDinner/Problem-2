@@ -13,3 +13,10 @@ val members = Seq(("A", "2021-01-07"), ("B", "2021-01-09")).toDF("customer_id","
 
 
 sales.groupBy("customer_id").agg(countDistinct("order_date")).show(false)
+
+/*
+# visit_each_day, customer_id
+2, C
+4, A
+6, B
+*/
