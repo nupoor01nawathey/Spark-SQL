@@ -1,2 +1,2 @@
 # Spark-SQL
-sql queries written in spark
+sql queries and corresponding query in spark
